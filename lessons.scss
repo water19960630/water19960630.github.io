@@ -1,0 +1,230 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+header {
+    height: 95px;
+
+
+    img {
+        height: 95px;
+    }
+
+    .header-button {
+    float: right;
+    display: flex;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+    a:hover {
+        color: navy;
+    }
+}
+
+.top-wrapper {
+    background-image: url("https://logica.school/nishikita/wp-content/uploads/top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.red-outline {
+    color: red;
+    font-size: 25px;
+    text-shadow: 
+        2px  2px 1px white,
+        -2px  2px 1px white,
+        2px -2px 1px white,
+        -2px -2px 1px white,
+        2px  0px 1px white,
+        0px  2px 1px white,
+        -2px  0px 1px white,
+        0px -2px 1px white;
+        
+        .near-future {
+            padding-top: 80px;
+        }
+}
+
+.school-name {
+    font-size: 35px;
+}
+
+.yellow-title {
+    color: #EEB136;
+    font-size: 25px;
+    background-color: #fff;
+    text-align: center;
+
+    .first {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .second {
+        font-size: 37px;
+    }
+
+}
+
+
+.black-outline {
+    color: black;
+    font-size: 25px;
+    text-shadow: 
+        2px  2px 1px white,
+        -2px  2px 1px white,
+        2px -2px 1px white,
+        -2px -2px 1px white,
+        2px  0px 1px white,
+        0px  2px 1px white,
+        -2px  0px 1px white,
+        0px -2px 1px white;
+}
+
+.red-black {
+    padding-left: 19%;
+}
+
+.bottom-wrapper {
+    background-image: url("https://logica.school/nishikita/wp-content/uploads/sec-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+
+    .red-title {
+        text-align: center;
+        margin-bottom: 50px;
+        color: red;
+        font-size: 25px;
+        text-shadow: 
+        2px  2px 1px white,
+        -2px  2px 1px white,
+        2px -2px 1px white,
+        -2px -2px 1px white,
+        2px  0px 1px white,
+        0px  2px 1px white,
+        -2px  0px 1px white,
+        0px -2px 1px white;
+    }
+
+    .ul-box {
+        margin-left: 550px;
+    }
+}
+
+.red-letter {
+    color: #E65C5B;
+}
+
+ul li {
+    list-style: none;
+}
+
+    h3 {
+        margin-top: 30px;
+    }
+.box-title {
+    border: 1px solid #EEB136;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.green-title {
+    color: #3cb371;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.explanation {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+
+.wide-image {
+    background: no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 30px;
+}
+
+    img {
+        height: 1100px;
+        max-width: 100%;
+    }
+
+    .caption {
+        width: calc(100% * 1150 / 1280);
+        max-width: 1150px;
+        text-align: center;
+        padding: 0 50px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+
+    .caption h3 {
+        font-size: 36px;
+        color: white;
+        text-shadow: 0px 0px 4px #333333;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+
+
+.bottom {
+    height: 220px;
+    background-color: #BB362F;
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+
+    .logo-area {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .footer-info {
+        font-size: 12px;
+        margin-top: 0.5rem;
+    }
+}
+
+
+footer .reserved {
+    background-color: navy;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+}
